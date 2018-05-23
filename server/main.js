@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 
-const deviceId = process.env.deviceId;
-const accessToken = process.env.accessToken;
+const deviceId = process.env.deviceId || Meteor.settings.secrets.deviceId;
+const accessToken = process.env.accessToken || Meteor.settings.secrets.accessToken;
 
 Meteor.methods({
   sendFunction: function (functionName, args) {
