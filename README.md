@@ -1,6 +1,5 @@
-<img src="public/assets/images/logo.png" alt="Photon Logo" width="100" /><h1>Photon</h1>
 
-<hr/>
+<img src="public/assets/images/logo.png" alt="Photon Logo" width="100" align="left" /><br><h1>&nbsp;&nbsp;Photon</h1><br>
 
 ![Photon Screenshot](resources/screen.png)
 
@@ -15,7 +14,7 @@ The app is built with Meteor which allows me to compile an APK for my Android ph
 
 ## Setup
 
-0. **Install Meteor**
+1. **Install Meteor**
 
     On Linux & Mac:
 
@@ -27,14 +26,14 @@ The app is built with Meteor which allows me to compile an APK for my Android ph
 
     > _Note:_ Windows users must [download installer](https://www.meteor.com/install).
 
-0. **Clone Repository**
+2. **Clone Repository**
 
     ```sh
     > git clone https://github.com/juangesino/photon.git
-  > cd photon
+    > cd photon
     ```
 
-0. **Install Dependencies**
+3. **Install Dependencies**
 
     If you have npm installed:
 
@@ -48,7 +47,7 @@ The app is built with Meteor which allows me to compile an APK for my Android ph
     > meteor npm install
     ```
 
-0. **Run**
+4. **Run**
 
     While in repository directory run:
 
