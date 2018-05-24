@@ -1,2 +1,2 @@
-process.env.deviceId = "THIS-SHOULD-BE-THE-DEVICE-ID";
-process.env.accessToken = "THIS-SHOULD-BE-THE-DEVICE-ACCESS-TOKEN";
+process.env.deviceId = "<DEVICE-ID>";
+process.env.accessToken = "<ACCESS-TOKEN>";
