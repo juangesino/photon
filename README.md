@@ -1,7 +1,7 @@
 
 <img src="public/assets/images/logo.png" alt="Photon Logo" width="100" align="left" /><br><h1>&nbsp;&nbsp;Photon</h1><br>
 
-![Photon Screenshot](resources/mockups/mockup-both.png)
+<img src="resources/mockups/mockup-both.png" alt="Photon Screenshot" width="400" />
 
 Meteor app to control <a href="https://store.particle.io/collections/photon" target="_blank">Photon</a>-connected lights.
 
