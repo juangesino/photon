@@ -51,6 +51,25 @@ html, body {
   background-color: #fff4d3;
   border-radius: 10px;
 }
+#light-switch-label .loading-switch {
+  text-align: center;
+  height: 150px;
+  width: 100px;
+  background: #fffaea;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -75px 0 0 -50px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 10px 10px -5px rgba(233, 219, 176, 0), 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0 0 4px #fff4d3, 0 0 0 5px rgba(0, 0, 0, 0.1);
+}
+#light-switch-label i {
+  position: relative;
+  top: 40%;
+  color: #e3d4a5;
+  font-size: 30pt;
+}
 #light-switch-label .switch {
   cursor: pointer;
   height: 150px;

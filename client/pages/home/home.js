@@ -11,6 +11,8 @@ Template.home.helpers({
     try {
       Meteor.call('getVariable', variableName, function (err, status) {
         Session.set('lightState', status);
+        $('.loading-switch').hide();
+        $('.switch').show();
       });
     } catch (e) {
       console.log(e);
