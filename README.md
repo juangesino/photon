@@ -11,6 +11,7 @@ This project contains the source code for my personal Android application for co
 
 The app is built with Meteor which allows me to compile an APK for my Android phone.
 
+👉🏻 For the Photon-side of things checkout the project here: [github.com/juangesino/lux](https://github.com/juangesino/lux).
 
 ## Setup
 
@@ -77,6 +78,10 @@ The app is built with Meteor which allows me to compile an APK for my Android ph
 
 ## Deploy
 
+### Hardware
+
+This project requires my <a href="https://github.com/juangesino/lux" target="_blank">Lux</a> project. Go check it out here: <a href="https://github.com/juangesino/lux" target="_blank">github.com/juangesino/lux</a>.
+
 ### Server
 
 The meteor application requires a server. We can do this by deploying the server to Heroku for free.
@@ -91,9 +96,9 @@ METEOR_SETTINGS = {"secrets": {"deviceId":"<DEVICE-ID>", "accessToken": "<ACCESS
 
 Where `<DEVICE-ID>` and `<ACCESS-TOKEN>` are the device ID and access token for the Photon device.
 
-For info on how to get these variables see <a href="https://docs.particle.io/guide/how-to-build-a-product/authentication/#access-tokens" target="_blank">these docs</a>.
+👉🏻 For info on how to get these variables see <a href="https://github.com/juangesino/lux" target="_blank">github.com/juangesino/lux</a>.
 
-For info on how to set these variables in Heroku see <a href="https://devcenter.heroku.com/articles/config-vars#setting-up-config-vars-for-a-deployed-application" target="_blank">these docs</a>.
+👉🏻 For info on how to set these variables in Heroku see <a href="https://devcenter.heroku.com/articles/config-vars#setting-up-config-vars-for-a-deployed-application" target="_blank">these docs</a>.
 
 **Note**: You will need to deploy this server for the Android app to work.
 
